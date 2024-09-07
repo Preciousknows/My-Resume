@@ -1,0 +1,93 @@
+body {
+    background-color: #faf3dd;
+    font-family: "Libre Baskerville", serif;
+    background-image: url(./assets/resume_01.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.first {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+    font-weight: 900;
+}
+
+.image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px
+}
+
+.Education {
+    background-color: rgb(223, 223, 223);
+    color: black;
+    padding: 20px;
+    width: 50%;
+    margin: 0%w;
+    font-weight: 600;
+}
+
+.Certifications {
+    background-color:  rgb(46, 31, 31);
+    color: azure;
+    padding: 20px;
+    width: 50%;
+    margin: 0%w;
+
+}
+
+.work {
+    background-color: rgb(46, 31, 31);
+    color: azure;
+    padding: 20px;
+    width: 50%;
+    margin: 0%w;
+}
+
+.Skills {
+    background-color:  rgb(223, 223, 223);
+    color: black;
+    padding: 20px;
+    width: 50%;
+    margin: 0%w;
+    font-weight: 700;
+
+}
+
+.hobbies {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5%;
+    font-size: large;
+    font-weight: 900;
+
+}
+
+.contact {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5%;
+    font-size: large;
+    font-weight: 900;
+    margin-left: 2%;
+
+
+}
+
+hr {
+    height: 5px;
+    border: 0.5px solid ;
+}
+
+footer {
+    text-align: center;
+    font-weight: 700;
+}
